@@ -1,3 +1,4 @@
 .vscode
 *~
 *.sqlite3
+Pipfile
