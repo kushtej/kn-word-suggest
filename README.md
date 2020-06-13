@@ -33,11 +33,11 @@ $ python manage.py makemigrations
 http://127.0.0.1:8080/
 ```
 
-### To Do list :
+## To Do list :
 
 - [x] Set optional language english.
 - [ ]  Dark Mode
 
 ## License
 
-This Project is licenced under  [MIT License.](https://github.com/kushtej/word-suggest/blob/master/LICENSE)
+This Project is licenced under [MIT License.](./LICENSE)
