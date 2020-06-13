@@ -21,7 +21,6 @@ $(document).ready(function () {
     $('#suggest').on('keyup', function (event) {
 
         var text = $.trim($(this).val());
-        console.log("first text" + $(this).val())
         var name = $.trim($('#name').val());
         var base_url = '/api/suggest?word=' + text;
         var information = {
@@ -44,3 +43,5 @@ $(document).ready(function () {
     })
 
 })
+
+

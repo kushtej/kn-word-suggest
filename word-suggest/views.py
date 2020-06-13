@@ -9,6 +9,9 @@ language=wordfreq.Language()
 def index(req):
     return render(req,'index.html')
 
+def help(req):
+    return render(req,'help.html')
+
 def is_ascii(s):
     return all(ord(c) < 128 for c in s)
 
