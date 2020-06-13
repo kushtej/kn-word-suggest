@@ -1,6 +1,6 @@
 # Kannada Word Suggester 
 
-A statistical  kannada(**kn**) language word suggester which predicts the typed word based on word frequency consisting of more than **35k** words .
+A statistical  kannada(**kn**) language word suggester which predicts the typed word based on word frequency consisting of more than **35k** words built on Django Framework with jquery-ajax.
 
 **For Kannada :**
 
