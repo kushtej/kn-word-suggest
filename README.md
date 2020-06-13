@@ -33,10 +33,11 @@ $ python manage.py makemigrations
 http://127.0.0.1:8080/
 ```
 
+
 ## To Do list :
 
-- [x] Set optional language english.
-- [ ]  Dark Mode
+- [x] ~~Set optional language english.~~
+- [ ] Dark Mode
 
 ## License
 
