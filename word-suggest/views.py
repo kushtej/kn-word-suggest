@@ -29,9 +29,3 @@ def suggest(req):
         txt=language.kannada_language(word)
         return JsonResponse({"word": txt})
 
-    # sentence = req.GET.get('word')
-    # words = sentence.split(" ")
-    # word=words[-1]
-    # txt=wordfreq.frequency(word)
-    # return JsonResponse({"word": txt})
-

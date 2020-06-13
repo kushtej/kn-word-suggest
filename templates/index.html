@@ -13,43 +13,30 @@
     <h1 style="text-align: center;">Word Suggester</h1>
 
     <div class="form-group">
-        <h4>Name:</h4>
-        <input type="text" class="form-control" id="name">
+        <h4>Title:</h4>
+        <input type="text" class="form-control" placeholder="Please enter the title" id="name">
         <br>
         <h4>Comment:</h4>
-        <textarea class="form-control" rows="5" id="suggest"></textarea>
+        <textarea class="form-control" rows="5" placeholder="Type here" id="suggest"></textarea>
     </div>
     <div class="form-inline" style="margin-left: 25px;">
         <table class="table table-bordered">
             <thead>
                 <tr>
-                    <input type="text" class="form-control" id="0" size="10" readonly style="background-color: white;">
-                    <input type="text" class="form-control" id="1" size="10" readonly style="background-color: white;">
-                    <input type="text" class="form-control" id="2" size="10" readonly style="background-color: white;">
-                    <input type="text" class="form-control" id="3" size="10" readonly style="background-color: white;">
-                    <input type="text" class="form-control" id="4" size="10" readonly style="background-color: white;">
-                    <input type="text" class="form-control" id="5" size="10" readonly style="background-color: white;">
-                    <input type="text" class="form-control" id="6" size="10" readonly style="background-color: white;">
-                    <input type="text" class="form-control" id="7" size="10" readonly style="background-color: white;">
+                    <input type="text" class="form-control" id="0" size="10" readonly>
+                    <input type="text" class="form-control" id="1" size="10" readonly>
+                    <input type="text" class="form-control" id="2" size="10" readonly>
+                    <input type="text" class="form-control" id="3" size="10" readonly>
+                    <input type="text" class="form-control" id="4" size="10" readonly>
+                    <input type="text" class="form-control" id="5" size="10" readonly>
+                    <input type="text" class="form-control" id="6" size="10" readonly>
+                    <input type="text" class="form-control" id="7" size="10" readonly>
                 </tr>
             </thead>
         </table>
         <button type="button" class="btn btn-primary btn-block" style="margin-right:30px;"
             onclick="copy_function()">copy to clipboard</button>
-
-
     </div>
-
-    <script>
-        function copy_function() {
-            var copyText = document.getElementById("suggest");
-            copyText.select();
-            copyText.setSelectionRange(0, 99999)
-            document.execCommand("copy");
-            console.log(copyText);
-            $('#successful').show().delay(5000).hide(0);;
-        }
-    </script>
 </div>
 
 
