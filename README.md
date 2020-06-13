@@ -33,6 +33,19 @@ $ python manage.py makemigrations
 http://127.0.0.1:8080/
 ```
 
+## Shortcuts :
+
+|Suggesstion No      |Shortcuts      |
+|--------------------|---------------|
+| Suggesstion **01** | `Ctrl+Alt+01` |
+| Suggesstion **02** | `Ctrl+Alt+02` |
+| Suggesstion **03** | `Ctrl+Alt+03` |
+| Suggesstion **04** | `Ctrl+Alt+04` |
+| Suggesstion **05** | `Ctrl+Alt+05` |
+| Suggesstion **06** | `Ctrl+Alt+06` |
+| Suggesstion **07** | `Ctrl+Alt+07` |
+| Suggesstion **08** | `Ctrl+Alt+08` |
+
 
 ## To Do list :
 
