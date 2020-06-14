@@ -225,14 +225,19 @@ $(document).ready(function () {
         var suggestion = '';
 
 
-        shortcut.add("ctrl+alt+1", function () {
+        shortcut.add("ctrl+shift+1", function () {
+            var text = $.trim($('#suggest').val());
+
             suggestion = $('#0').val().slice(2);
             remove_str = text.substring(text.lastIndexOf(" "))
+            //remaining_str=text.split(/[, ]+/).pop();
             remaining_str = text.replace(remove_str, '');
             $('#suggest').val(remaining_str + " " + suggestion + " ");
         });
 
-        shortcut.add("ctrl+alt+2", function () {
+        shortcut.add("ctrl+shift+2", function () {
+            var text = $.trim($('#suggest').val());
+
             suggestion = $('#1').val().slice(2);
             remove_str = text.substring(text.lastIndexOf(" "))
             remaining_str = text.replace(remove_str, '');
@@ -240,7 +245,9 @@ $(document).ready(function () {
         });
 
 
-        shortcut.add("ctrl+alt+3", function () {
+        shortcut.add("ctrl+shift+3", function () {
+            var text = $.trim($('#suggest').val());
+
             suggestion = $('#2').val().slice(2);
             remove_str = text.substring(text.lastIndexOf(" "))
             remaining_str = text.replace(remove_str, '');
@@ -248,7 +255,9 @@ $(document).ready(function () {
         });
 
 
-        shortcut.add("ctrl+alt+4", function () {
+        shortcut.add("ctrl+shift+4", function () {
+            var text = $.trim($('#suggest').val());
+
             suggestion = $('#3').val().slice(2);
             remove_str = text.substring(text.lastIndexOf(" "))
             remaining_str = text.replace(remove_str, '');
@@ -256,7 +265,9 @@ $(document).ready(function () {
         });
 
 
-        shortcut.add("ctrl+alt+5", function () {
+        shortcut.add("ctrl+shift+5", function () {
+            var text = $.trim($('#suggest').val());
+
             suggestion = $('#4').val().slice(2);
             remove_str = text.substring(text.lastIndexOf(" "))
             remaining_str = text.replace(remove_str, '');
@@ -264,21 +275,27 @@ $(document).ready(function () {
         });
 
 
-        shortcut.add("ctrl+alt+6", function () {
+        shortcut.add("ctrl+shift+6", function () {
+            var text = $.trim($('#suggest').val());
+
             suggestion = $('#5').val().slice(2);
             remove_str = text.substring(text.lastIndexOf(" "))
             remaining_str = text.replace(remove_str, '');
             $('#suggest').val(remaining_str + " " + suggestion + " ");
         });
 
-        shortcut.add("ctrl+alt+7", function () {
+        shortcut.add("ctrl+shift+7", function () {
+            var text = $.trim($('#suggest').val());
+
             suggestion = $('#6').val().slice(2);
             remove_str = text.substring(text.lastIndexOf(" "))
             remaining_str = text.replace(remove_str, '');
             $('#suggest').val(remaining_str + " " + suggestion + " ");
         });
 
-        shortcut.add("ctrl+alt+8", function () {
+        shortcut.add("ctrl+shift+8", function () {
+            var text = $.trim($('#suggest').val());
+
             suggestion = $('#7').val().slice(2);
             remove_str = text.substring(text.lastIndexOf(" "))
             remaining_str = text.replace(remove_str, '');

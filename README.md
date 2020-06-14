@@ -45,14 +45,14 @@ http://127.0.0.1:8080/
 
 |Suggesstion No      |Shortcuts      |
 |--------------------|---------------|
-| Suggesstion **01** | `Ctrl+Alt+01` |
-| Suggesstion **02** | `Ctrl+Alt+02` |
-| Suggesstion **03** | `Ctrl+Alt+03` |
-| Suggesstion **04** | `Ctrl+Alt+04` |
-| Suggesstion **05** | `Ctrl+Alt+05` |
-| Suggesstion **06** | `Ctrl+Alt+06` |
-| Suggesstion **07** | `Ctrl+Alt+07` |
-| Suggesstion **08** | `Ctrl+Alt+08` |
+| Suggesstion **01** | `Ctrl+Shift+01` |
+| Suggesstion **02** | `Ctrl+Shift+02` |
+| Suggesstion **03** | `Ctrl+Shift+03` |
+| Suggesstion **04** | `Ctrl+Shift+04` |
+| Suggesstion **05** | `Ctrl+Shift+05` |
+| Suggesstion **06** | `Ctrl+Shift+06` |
+| Suggesstion **07** | `Ctrl+Shift+07` |
+| Suggesstion **08** | `Ctrl+Shift+08` |
 
 
 ## To Do list :

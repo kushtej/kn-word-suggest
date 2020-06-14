@@ -34,7 +34,14 @@ $(document).ready(function () {
             $.ajax(information).done(function (data) {
 
                 for (var i = 0; i < 8; i++) {
-                    $('#' + i.toString()).val($.trim((i + 1).toString() + "." + data['word'][i]));
+                    if(data['word'][i] === '' || data['word'][i]==null)
+                    {
+                        $('#' + i.toString()).val(" ");
+                    }
+                    else
+                    {
+                        $('#' + i.toString()).val($.trim((i + 1).toString() + "." + data['word'][i]));
+                    }
                 }
 
             })
