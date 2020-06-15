@@ -37,7 +37,7 @@ http://127.0.0.1:8080/
 
 **Step 1 :** The Dataset of the project can be downloaded here : [https://www.kaggle.com/kushtej/kannada-word-frequency/](https://www.kaggle.com/kushtej/kannada-word-frequency/)
 
-**Step 2 :** Move the `**kn-wordfreq.json**` file to `/static/dataset/` .
+**Step 2 :** Move the **kn-wordfreq.json** file to `/static/dataset/` .
 
 
 
