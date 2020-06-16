@@ -1,5 +1,8 @@
 # Kannada Word Suggester 
 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]()
+
+
 A statistical  kannada(**kn**) language word suggester which predicts the typed word based on word frequency consisting of more than **35k** words built on Django Framework with jquery-ajax.
 
 **For Kannada :**
