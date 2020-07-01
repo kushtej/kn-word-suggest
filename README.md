@@ -2,6 +2,7 @@
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]()
 ![APM](https://img.shields.io/apm/l/vim-mode)
+![Downloads](https://img.shields.io/badge/downloads-15-brightgreen)
 
 A statistical  kannada(**kn**) language word suggester which predicts the typed word based on word frequency consisting of more than **35k** words built on Django Framework with jquery-ajax.
 
@@ -61,6 +62,7 @@ http://127.0.0.1:8080/
 ## To Do list :
 
 - [x] ~~Set optional language english.~~
+- [x] ~~Added Kannada Dataset to Kaggle.~~
 - [ ] Dark Mode
 
 ## License
